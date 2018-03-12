@@ -1,0 +1,10 @@
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\bin\Debug\ClassLibrary1.xml
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\obj\Debug\ClassLibrary1.vbprojResolveAssemblyReference.cache
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\obj\Debug\ClassLibrary1.Resources.resources
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\obj\Debug\ClassLibrary1.vbproj.GenerateResource.Cache
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\obj\Debug\ClassLibrary1.vbproj.CoreCompileInputs.cache
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\obj\Debug\ClassLibrary1.xml
+C:\Users\opalo\Desktop\UPV\HADS\Lab2\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

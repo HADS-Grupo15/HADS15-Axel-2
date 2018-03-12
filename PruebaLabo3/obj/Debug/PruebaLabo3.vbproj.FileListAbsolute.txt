@@ -1,0 +1,16 @@
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\PruebaLabo3.dll.config
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\PruebaLabo3.dll
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\PruebaLabo3.pdb
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\PruebaLabo3.xml
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\AccesoDatosSQL.dll
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\AccesoDatosSQL.pdb
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\AccesoDatosSQL.xml
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\obj\Debug\PruebaLabo3.vbprojResolveAssemblyReference.cache
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\obj\Debug\PruebaLabo3.Resources.resources
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\obj\Debug\PruebaLabo3.vbproj.GenerateResource.Cache
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\obj\Debug\PruebaLabo3.vbproj.CoreCompileInputs.cache
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\obj\Debug\PruebaLabo3.dll
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\obj\Debug\PruebaLabo3.xml
+E:\Win_Archivos\Documentos\Visual Studio 2017\source\repos\Lab2_ConValidacion\PruebaLabo3\obj\Debug\PruebaLabo3.pdb
