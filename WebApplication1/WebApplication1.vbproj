@@ -95,15 +95,41 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Alumnos\Alumno.aspx" />
+    <Content Include="Alumnos\TareasAlumno.aspx" />
+    <Content Include="CabeceraInicio.ascx" />
     <Content Include="Confirmar.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Inicio.aspx" />
     <Content Include="CambiarPassword.aspx" />
     <Content Include="CambiarPassword2.aspx" />
+    <Content Include="Profesores\InsertarTarea.aspx" />
+    <Content Include="Profesores\Profesor.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alumnos\Alumno.aspx.designer.vb">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumnos\Alumno.aspx.vb">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alumnos\TareasAlumno.aspx.designer.vb">
+      <DependentUpon>TareasAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumnos\TareasAlumno.aspx.vb">
+      <DependentUpon>TareasAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CabeceraInicio.ascx.designer.vb">
+      <DependentUpon>CabeceraInicio.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CabeceraInicio.ascx.vb">
+      <DependentUpon>CabeceraInicio.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Confirmar.aspx.designer.vb">
       <DependentUpon>Confirmar.aspx</DependentUpon>
     </Compile>
@@ -153,6 +179,20 @@
     <Compile Include="CambiarPassword2.aspx.vb">
       <DependentUpon>CambiarPassword2.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesores\InsertarTarea.aspx.designer.vb">
+      <DependentUpon>InsertarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores\InsertarTarea.aspx.vb">
+      <DependentUpon>InsertarTarea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesores\Profesor.aspx.designer.vb">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores\Profesor.aspx.vb">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Registro.aspx.designer.vb">
       <DependentUpon>Registro.aspx</DependentUpon>

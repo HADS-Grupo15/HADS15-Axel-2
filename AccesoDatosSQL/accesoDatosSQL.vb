@@ -67,7 +67,7 @@ Public Class accesodatosSQL
 
     Public Shared Function existeUsuario(ByVal email As String) As Integer
 
-        conectar()
+        Dim errorConexion = conectar()
 
         Dim query = "select * from Usuarios where email='" & email & "' AND confirmado='" & True & "'"
 
@@ -81,6 +81,25 @@ Public Class accesodatosSQL
         cerrarconexion()
 
         Return 0
+
+    End Function
+
+    Public Shared Function tipoUsuario(ByVal email) As String
+        conectar()
+
+        Dim query = "select tipo from Usuarios where email='" & email & "'"
+
+        Dim comando = New SqlCommand(query, conexion)
+
+        Dim tipo = comando.ExecuteReader()
+
+        tipo.Read()
+
+        Dim resultString = tipo.Item("tipo")
+
+        cerrarconexion()
+
+        Return resultString
 
     End Function
 

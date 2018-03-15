@@ -38,3 +38,13 @@ E:\Win_Archivos\Documentos\HADS\HADS15-master\AccesoDatosSQL\obj\Debug\AccesoDat
 E:\Win_Archivos\Documentos\HADS\HADS15-master\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.dll
 E:\Win_Archivos\Documentos\HADS\HADS15-master\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.xml
 E:\Win_Archivos\Documentos\HADS\HADS15-master\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.pdb
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\bin\Debug\AccesoDatosSQL.dll
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\bin\Debug\AccesoDatosSQL.pdb
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\bin\Debug\AccesoDatosSQL.xml
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.vbprojResolveAssemblyReference.cache
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.Resources.resources
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.vbproj.GenerateResource.Cache
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.vbproj.CoreCompileInputs.cache
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.dll
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.xml
+E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.pdb
