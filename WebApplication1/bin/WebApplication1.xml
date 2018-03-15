@@ -541,15 +541,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:WebApplication1.InsertarTarea._SqlDataSource1">
-<summary>
-Control SqlDataSource1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:WebApplication1.InsertarTarea._Label1">
 <summary>
 Control Label1.
@@ -634,6 +625,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:WebApplication1.InsertarTarea._DropDownList4">
 <summary>
 Control DropDownList4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApplication1.InsertarTarea._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
 </summary>
 <remarks>
 Campo generado automáticamente.

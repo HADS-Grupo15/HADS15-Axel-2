@@ -13,16 +13,6 @@
     </div>
     <br /><br />
     <form id="formTareas" style="text-align:center" runat="server">
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
-                    ConnectionString="<%$ ConnectionStrings:HADS-15-TareasConnectionString %>" 
-                    SelectCommand="SELECT Asignaturas.codigo FROM Asignaturas 
-                                   INNER JOIN GruposClase ON GruposClase.codigoasig = Asignaturas.codigo 
-                                   INNER JOIN ProfesoresGrupo ON ProfesoresGrupo.codigogrupo = GruposClase.codigo
-                                   WHERE ProfesoresGrupo.email = @email">
-                    <SelectParameters>
-                         <asp:SessionParameter Name="email" SessionField="UserID" />
-                     </SelectParameters>
-               </asp:SqlDataSource>
         <div>
             <div style="width:48%; float:left;text-align:right;font-size:25px">
             <asp:Label ID="Label1" runat="server" Text="Código"></asp:Label>            
@@ -52,6 +42,11 @@
             </asp:DropDownList>
             <br /><br />
         </div>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:HADS-15-TareasConnectionString %>" SelectCommand="SELECT Asignaturas.codigo FROM Asignaturas INNER JOIN GruposClase ON GruposClase.codigoasig = Asignaturas.codigo INNER JOIN ProfesoresGrupo ON ProfesoresGrupo.codigogrupo = GruposClase.codigo WHERE ProfesoresGrupo.email = @email">
+                <SelectParameters>
+                    <asp:SessionParameter Name="email" SessionField="UserID" />
+                </SelectParameters>
+            </asp:SqlDataSource>
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             <asp:Button ID="Button1" runat="server" Text="Crear Tarea"  style="border-radius:3px" BackColor="#0099FF" BorderColor="#0033CC" BorderStyle="Double" ForeColor="White" Height="35px"/>
             <br />
