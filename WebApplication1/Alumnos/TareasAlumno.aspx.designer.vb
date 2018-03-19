@@ -39,13 +39,4 @@ Partial Public Class TareasAlumno
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GridViewTareas As Global.System.Web.UI.WebControls.GridView
-    
-    '''<summary>
-    '''Control lblStat.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblStat As Global.System.Web.UI.WebControls.Label
 End Class

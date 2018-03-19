@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Alumnos\Alumno.aspx" />
+    <Content Include="Alumnos\InstanciarTarea.aspx" />
     <Content Include="Alumnos\TareasAlumno.aspx" />
     <Content Include="CabeceraInicio.ascx" />
     <Content Include="Confirmar.aspx" />
@@ -105,6 +106,7 @@
     <Content Include="CambiarPassword2.aspx" />
     <Content Include="Profesores\InsertarTarea.aspx" />
     <Content Include="Profesores\Profesor.aspx" />
+    <Content Include="Profesores\TareasProfesor.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -114,6 +116,13 @@
     </Compile>
     <Compile Include="Alumnos\Alumno.aspx.vb">
       <DependentUpon>Alumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alumnos\InstanciarTarea.aspx.designer.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumnos\InstanciarTarea.aspx.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Alumnos\TareasAlumno.aspx.designer.vb">
@@ -192,6 +201,13 @@
     </Compile>
     <Compile Include="Profesores\Profesor.aspx.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesores\TareasProfesor.aspx.designer.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores\TareasProfesor.aspx.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Registro.aspx.designer.vb">

@@ -22,12 +22,12 @@ Public Class Login
         ElseIf logResult = 0 Then
             lblAns.Text = "Contraseña errónea"
         Else
-            Session("userEmail") = txtMail.Text
+            Session("UserID") = txtMail.Text
             'Redirigir a aplicación principal
             If tipoUsuario(txtMail.Text) = "Profesor" Then
-                Response.Redirect("Profesores/Profesor.aspx")
+                Response.Redirect("./Profesores/Profesor.aspx")
             Else 'tipo.Read Is "Alumno"
-                Response.Redirect("Alumnos/Alumno.aspx")
+                Response.Redirect("./Alumnos/Alumno.aspx")
             End If
         End If
         'End If

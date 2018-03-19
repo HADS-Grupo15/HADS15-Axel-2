@@ -19,11 +19,11 @@
 <div style="text-align:center;float:left;background-color:cornflowerblue;width:25%; height: 570px;">
     <form ID="columnaIZQ" runat="server">
      <br /><br /<br /><br /><br /><br /><br /><br /><!-- AGRANDAR-->
-        <asp:LinkButton ID="LinkButton1" style="font-size:35px" runat="server">Tareas Genéricas</asp:LinkButton>
+        <asp:HyperLink ID="HLTareasGenericas" style="font-size:35px" runat="server" NavigateUrl="~/Alumnos/TareasAlumno.aspx">Tareas Genéricas</asp:HyperLink>
     <br /><br />
-        <asp:LinkButton ID="LinkButton2"  style="font-size:35px" runat="server">Tareas Propias</asp:LinkButton> 
+        <asp:HyperLink ID="HLTareasPropias"  style="font-size:35px" runat="server" NavigateUrl="">Tareas Propias</asp:HyperLink> 
     <br /><br />
-     <asp:LinkButton ID="LinkButton3"  style="font-size:35px" runat="server">Grupos</asp:LinkButton>
+     <asp:HyperLink ID="HLGrupos"  style="font-size:35px" runat="server" NavigateUrl="">Grupos</asp:HyperLink>
     <br /><br />
     </form>
 </div>

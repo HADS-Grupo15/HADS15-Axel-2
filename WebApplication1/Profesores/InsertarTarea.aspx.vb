@@ -9,12 +9,37 @@ Public Class InsertarTarea
                                                         TrustServerCertificate=False;Connection Timeout=30;")
 
     Dim dapTareasProfesor As New SqlDataAdapter()
+
     Dim dtsTareasProfesor As New DataSet
+
     Dim tblTareasProfesor As New DataTable
+
     Dim rowTareasProfesor As DataRow
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Session("UserID") = "blanco@ehu.es"
+
+        'Session("UserID") = "blanco@ehu.es"
+
+        If Page.IsPostBack Then
+
+            dtsTareasProfesor = Session("TareasProfesor")
+
+        Else
+
+            dapTareasProfesor = New SqlDataAdapter("SELECT * FROM TareasGenericas WHERE CodAsig='" & DropDownList3.SelectedValue & "'", conexion)
+
+            Dim bldTareasUser As New SqlCommandBuilder(dapTareasProfesor)
+
+            dapTareasProfesor.Fill(dtsTareasProfesor, "TareasProfesor")
+
+            tblTareasProfesor = dtsTareasProfesor.Tables("TareasProfesor")
+
+            Session("TareasProfesor") = dtsTareasProfesor
+
+            Session("AdapterTareasProfesor") = dapTareasProfesor
+
+        End If
+
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -49,13 +74,44 @@ Public Class InsertarTarea
 
             dtsTareasProfesor.AcceptChanges()
 
+            'que muestre una ventana  y al acepptar redireccione!!!!NO FUNCIONA! EL RESPONSE REDIRECT SE LO COME
+
+            Page.ClientScript.RegisterStartupScript(Me.GetType(), "PopupScript", "alert('¡Tarea creada!');window.location ='./TareasProfesor.aspx';", True)
+
+            ' Response.Redirect("./TareasProfesor.aspx")
+
+
         Catch
 
-            LblError.Text = "Error al intentar meterla a la base de datos"
+            'ventana que muestre el error(?)
+
+            Page.ClientScript.RegisterStartupScript(Me.GetType(), "PopupScript", "alert('¡Ha ocurrido un error!')", True)
+
 
         End Try
 
     End Sub
 
+    Protected Sub DropDownList3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownList3.SelectedIndexChanged
+
+        dapTareasProfesor = New SqlDataAdapter("SELECT * FROM TareasGenericas WHERE CodAsig='" & DropDownList3.SelectedValue & "'", conexion)
+
+        Dim bldTareasUser As New SqlCommandBuilder(dapTareasProfesor)
+
+        dapTareasProfesor.Fill(dtsTareasProfesor, "TareasProfesor")
+
+        tblTareasProfesor = dtsTareasProfesor.Tables("TareasProfesor")
+
+        Session("TareasProfesor") = dtsTareasProfesor
+
+        Session("AdapterTareasProfesor") = dapTareasProfesor
+
+    End Sub
+
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+        Response.Redirect("./TareasProfesor.aspx")
+
+    End Sub
 
 End Class

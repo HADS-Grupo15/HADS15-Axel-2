@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Mostrar tareas Alumno</title>
 </head>
 <body>
         <div style="text-align:center;background-color:Highlight;">
@@ -14,16 +14,16 @@
     <form id="formTareaGen" runat="server"  style="text-align: center">
         <div>
             <p>Selecciona la asignatura</p>           
-            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True"/>         
+            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" Height="16px"/>         
         </div>
         <br /><br />
         <div>
-            <asp:GridView ID="GridViewTareas" runat="server" HorizontalAlign="Center" EmptyDataText="No hay tareas de esta asignatura" Height="305px" Width="786px" AutoGenerateColumns="False" DataKeyNames="Codigo" >
+            <asp:GridView ID="GridViewTareas" runat="server" HorizontalAlign="Center" EmptyDataText="No hay tareas de esta asignatura" 
+                Height="305px" Width="786px" DataKeyNames="Codigo" AllowSorting="True" AutoGenerateSelectButton="True">
                 <AlternatingRowStyle BackColor="#aed6f1" />
                 <HeaderStyle BackColor="#2e86c1" />
             </asp:GridView>
         </div>
-        <asp:Label ID="lblStat" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>

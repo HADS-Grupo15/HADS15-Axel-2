@@ -23,29 +23,29 @@ Partial Public Class Alumno
     Protected WithEvents columnaIZQ As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''Control LinkButton1.
+    '''Control HLTareasGenericas.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents LinkButton1 As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents HLTareasGenericas As Global.System.Web.UI.WebControls.HyperLink
     
     '''<summary>
-    '''Control LinkButton2.
+    '''Control HLTareasPropias.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents LinkButton2 As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents HLTareasPropias As Global.System.Web.UI.WebControls.HyperLink
     
     '''<summary>
-    '''Control LinkButton3.
+    '''Control HLGrupos.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents LinkButton3 As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents HLGrupos As Global.System.Web.UI.WebControls.HyperLink
 End Class

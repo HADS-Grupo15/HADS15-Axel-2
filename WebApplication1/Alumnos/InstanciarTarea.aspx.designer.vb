@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Profesor2
+Partial Public Class InstanciarTarea
     
     '''<summary>
     '''Control form1.
@@ -23,6 +23,60 @@ Partial Public Class Profesor2
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
+    '''Control txtUsuario.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtUsuario As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control txtTarea.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtTarea As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control txtHEst.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtHEst As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control txtHReales.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtHReales As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control CompareValidator1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents CompareValidator1 As Global.System.Web.UI.WebControls.CompareValidator
+    
+    '''<summary>
+    '''Control submit.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents submit As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
     '''Control Label1.
     '''</summary>
     '''<remarks>
@@ -32,65 +86,11 @@ Partial Public Class Profesor2
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Control ImageButton2.
+    '''Control hyperTareasAlumno.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ImageButton2 As Global.System.Web.UI.WebControls.ImageButton
-    
-    '''<summary>
-    '''Control LinkButton7.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LinkButton7 As Global.System.Web.UI.WebControls.LinkButton
-    
-    '''<summary>
-    '''Control LinkButton8.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LinkButton8 As Global.System.Web.UI.WebControls.LinkButton
-    
-    '''<summary>
-    '''Control LinkButton9.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LinkButton9 As Global.System.Web.UI.WebControls.LinkButton
-    
-    '''<summary>
-    '''Control LinkButton10.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LinkButton10 As Global.System.Web.UI.WebControls.LinkButton
-    
-    '''<summary>
-    '''Control LinkButton11.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LinkButton11 As Global.System.Web.UI.WebControls.LinkButton
-    
-    '''<summary>
-    '''Control LinkButton12.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LinkButton12 As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents hyperTareasAlumno As Global.System.Web.UI.WebControls.HyperLink
 End Class
