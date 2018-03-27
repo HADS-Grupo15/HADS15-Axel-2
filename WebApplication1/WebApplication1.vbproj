@@ -104,6 +104,8 @@
     <Content Include="Inicio.aspx" />
     <Content Include="CambiarPassword.aspx" />
     <Content Include="CambiarPassword2.aspx" />
+    <Content Include="Profesores\ExportarTarea.aspx" />
+    <Content Include="Profesores\ImportarXML.aspx" />
     <Content Include="Profesores\InsertarTarea.aspx" />
     <Content Include="Profesores\Profesor.aspx" />
     <Content Include="Profesores\TareasProfesor.aspx" />
@@ -187,6 +189,20 @@
     </Compile>
     <Compile Include="CambiarPassword2.aspx.vb">
       <DependentUpon>CambiarPassword2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesores\ExportarTarea.aspx.designer.vb">
+      <DependentUpon>ExportarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores\ExportarTarea.aspx.vb">
+      <DependentUpon>ExportarTarea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesores\ImportarXML.aspx.designer.vb">
+      <DependentUpon>ImportarXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores\ImportarXML.aspx.vb">
+      <DependentUpon>ImportarXML.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Profesores\InsertarTarea.aspx.designer.vb">

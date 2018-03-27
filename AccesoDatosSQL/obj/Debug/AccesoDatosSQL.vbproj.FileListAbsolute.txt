@@ -48,3 +48,13 @@ E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\Acce
 E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.dll
 E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.xml
 E:\Win_Archivos\Documentos\HADS\GitHub\HADS15-Axel\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.pdb
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\bin\Debug\AccesoDatosSQL.dll
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\bin\Debug\AccesoDatosSQL.pdb
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\bin\Debug\AccesoDatosSQL.xml
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.vbprojResolveAssemblyReference.cache
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.Resources.resources
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.vbproj.GenerateResource.Cache
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.vbproj.CoreCompileInputs.cache
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.dll
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.xml
+C:\Users\opalo\Desktop\UPV\HADS\GitHub\HADS2018\HADS15-Lab5\AccesoDatosSQL\obj\Debug\AccesoDatosSQL.pdb

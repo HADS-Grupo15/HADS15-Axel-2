@@ -15,4 +15,20 @@
 
     End Sub
 
+    Protected Sub LinkButton8_Click(sender As Object, e As EventArgs) Handles LinkButton8.Click
+
+    End Sub
+
+    Protected Sub LinkButton10_Click(sender As Object, e As EventArgs) Handles LinkButton10.Click
+
+        Response.Redirect("./ImportarXML.aspx")
+
+    End Sub
+
+    Protected Sub LinkButton11_Click(sender As Object, e As EventArgs) Handles LinkButton11.Click
+
+        Response.Redirect("./ExportarTarea.aspx")
+
+    End Sub
+
 End Class
